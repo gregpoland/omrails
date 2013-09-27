@@ -79,5 +79,5 @@ Omrails::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
 # In production, :host should be set to the actual host of your application.
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'http://peaceful-shore-2327.herokuapp.com' }
 end
