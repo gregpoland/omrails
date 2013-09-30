@@ -7,7 +7,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise', '3.0.3'
 gem 'protected_attributes'
-gem 'simple_form'
+gem 'simple_form', '3.0.0.rc'
 
 group :production do
   gem 'pg'
@@ -22,6 +22,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 2.2.2.0'
 # gem 'bootstrap-sass', '~> 2.3.2.1'  --This is the current version, but I will use the old version for training
+
 gem 'rails_12factor', group: :production
 gem 'jbuilder', '~> 1.2'
 
